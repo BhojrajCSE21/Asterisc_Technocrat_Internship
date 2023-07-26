@@ -6,6 +6,12 @@ The objective of this internship was to learn and practice the web development t
 * JavaScript
 * PHP
 
+## Important
+The Working video and demonstration of each task are uploded in the video file of video which can be found in the repository with .mp4 extensions.
+Also, the websites can be checked live by clicking the given hyperlinks in the readme file.
+
+
+
 # Task 1 - Personal Portfolio
 A personal portfolio is a collection or document that showcases your past works, skills, experiences, goals, and achievements. It can be in print or electronic format, such as a website. It can help you convey your professional mission, provide evidence of your accomplishments, and attract clients or employers.
 
@@ -14,6 +20,8 @@ A personal portfolio is a collection or document that showcases your past works,
 - CSS
 - JavaScript
 
+
+
 ## FLOW OF PROJECT:
 1. Homepage: The homepage serves as an introduction and should provide an overview of your portfolio.
 2. About Me: Create a dedicated "About Me" page that provides more detailed information about yourself.
@@ -21,10 +29,8 @@ A personal portfolio is a collection or document that showcases your past works,
 4. Resume/CV: Provide a downloadable or accessible version of your resume or CV.
 5. Contact: Created a contact page that allows visitors to get in touch with me.
 
-Below is the video of a Performed task to get a better understanding.
-
-
-
+## The Website is Live at: 
+https://bhojrajportfolio.netlify.app/
 
 
 
@@ -49,8 +55,6 @@ topics to be covered and the duration of each session.
 6. Thank You Page: After successful registration, redirect participants to a thank you page that confirms their
 registration and provides any additional information or resources.
 
-Below is the video of a Performed task to get a better understanding.
-![Output](Task-2.mp4)
 
 
 
@@ -70,7 +74,8 @@ The ability to sell products or services online is a necessity these days. Many 
 4. Delete the Product
 6. Payment method
 
-Below is the video of a Performed task to get a better understanding.
+## The Website is Live at: 
+https://bhojraj-ecommerce.netlify.app/
 
 
 
