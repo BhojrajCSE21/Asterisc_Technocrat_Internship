@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FLATICON ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Ecommerce Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <i class="fas fa-phone-alt"></i>
+          <span>+1 123 456 7890</span>
+          <i class="fas fa-map-marker"></i>
+          <span> Our Location</span>
+        </div>
+
+        <p class="header__alert-news">
+          <i class="fas fa-bell"></i>
+          <span>Super Value Deals - Get upto 40% off on Selected Brands</span>
+        </p>
+
+        <a href="login-register.html" class="header__top-action">
+          Log In / Register
+        </a>
+      </div>
+    </div>
+
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/img/logo.svg" alt="" class="nav__logo-img">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="shop.html" class="nav__link">Shop</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="accounts.html" class="nav__link">My Account</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="compare.html" class="nav__link">Compare</a>
+          </li>
+
+          <li class="nav__items">
+            <a href="login-register.html" class="nav__link">Login</a>
+          </li>
+        </ul>
+
+        <div class="header__search">
+          <input type="text" placeholder="Search for Products" class="form__input">
+
+          <button class="search__btn">
+            <img src="assets/img/search.png" alt="">
+        </div>
+      </div>
+
+      <div class="header__user-actions">
+        <a href="wishlist.html" class="header__action-btn">
+          <img src="assets/img/icon-heart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <a href="cart.html" class="header__action-btn">
+          <img src="assets/img/icon-cart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== BREADCRUMB ===============-->
+    <section class="breadcrumb">
+      <ul class="breadcrumb__list flex container">
+        <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Shop</span></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Checkout</span></li>
+
+      </ul>
+    </section>
+
+    <!--=============== CHECKOUT ===============-->
+    <section class="checkout section--lg">
+      <div class="checkout__container container grid">
+        <div class="checkout__group">
+          <h3 class="section__title">Billing Details</h3>
+
+          <form action="" class="form grid">
+            <input type="text" class="form__input" placeholder="Name" />
+            <input type="email" class="form__input" placeholder="Email" />
+            <input type="text" class="form__input" placeholder="Phone" />
+            <input type="text" class="form__input" placeholder="Address" />
+            <input type="text" class="form__input" placeholder="City" />
+            <input type="text" class="form__input" placeholder="State" />
+            <input type="text" class="form__input" placeholder="Country" />
+            <input type="text" class="form__input" placeholder="Postal Code" />
+
+            <h3 class="checkout__title">Additional Information</h3>
+            <textarea name="" placeholder="Order note" cols="0" rows="10" class="form__input textarea"></textarea>
+          </form>
+        </div>
+
+        <div class="checkout__group">
+          <h3 class="section__title">Cart Total</h3>
+
+          <table class="order__table">
+            <tr>
+              <th colspan="2">Products</th>
+              <th>Total</th>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product-1-1.jpg" alt="" class="order__img" /></td>
+              <td>
+                <h3 class="table__title">J.Crew Mercantile Women's Short-Sleeve</h3>
+                <p class="table__quantity">x 2</p>
+              </td>
+
+              <td><span class="table__price">₹799</span></td>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product-3-1.jpg" alt="" class="order__img" /></td>
+              <td>
+                <h3 class="table__title">ANDUNE Men's Barefoot & Minimalist Shoes</h3>
+                <p class="table__quantity">x 1</p>
+              </td>
+
+              <td><span class="table__price">₹599</span></td>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product-11-1.jpg" alt="" class="order__img" /></td>
+              <td>
+                <h3 class="table__title">Louis Women's Cotton Legis</h3>
+                <p class="table__quantity">x 3</p>
+              </td>
+
+              <td><span class="table__price">₹799</span></td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">SubTotal</span></td>
+              <td colspan="2"><span class="table__price">₹3599</span></td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">Shipping</span></td>
+              <td colspan="2"><span class="table__price">₹599</span></td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">Total</span></td>
+              <td colspan="2"><span class="order__grand-total">₹4199</span></td>
+            </tr>
+          </table>
+
+          <div class="payment__method">
+            <h3 class="checkout__title payment__title">Payment</h3>
+
+            <div class="payment__option flex">
+              <input type="radio" name="radio" checked class="payment__input" />
+              <label for="radio" class="paymentt__label">Direct Bank Transfer</label>
+            </div>
+
+            <div class="payment__option flex">
+              <input type="radio" name="radio" class="payment__input" />
+              <label for="radio" class="paymentt__label">Credit/Debit Cards</label>
+            </div>
+
+            <div class="payment__option flex">
+              <input type="radio" name="radio" class="payment__input" />
+              <label for="radio" class="paymentt__label">Cash on Delivery</label>
+            </div>
+          </div>
+
+          <button class="btn btn--md">Place Order</button>
+        </div>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon" />
+          Sign up For Newsletter
+        </h3>
+        <p class="newsletter__description">...and receive a ₹500 coupon for first shopping.</p>
+
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Enter Your Email Address" class="newsletter__input" />
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+      <div class="footer__content">
+        <a href="index.html" class="footer__logo">
+          <img src="assets/img/logo.svg" alt="Evara" class="footer__logo-img">
+        </a>
+
+        <h4 class="footer__subtitle">Contact</h4>
+
+        <p class="footer__description">
+          <span>Address:</span> 574 Sector-3, Kailash Vihar, New Delhi, India
+        </p>
+
+        <p class="footer__description">
+          <span>Phone:</span> (+91) 97765 46210 / (+91) 94565 43610
+        </p>
+
+        <p class="footer__description">
+          <span>Timing:</span> 10:00 AM - 09:00 PM, Monday - Saturday
+        </p>
+
+        <div class="footer__social">
+          <h4 class="footer__subtitle">Follow Us</h4>
+
+          <div class="footer__social-links">
+            <a href="">
+              <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon" />
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon" />
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Address</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">About Us</a></li>
+          <li><a href="" class="footer__link">Delivery Information</a></li>
+          <li><a href="" class="footer__link">Privacy Policy</a></li>
+          <li><a href="" class="footer__link">Terms & Conditions</a></li>
+          <li><a href="" class="footer__link">Contact Us</a></li>
+          <li><a href="" class="footer__link">Chat Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">My Account</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">Sign In</a></li>
+          <li><a href="" class="footer__link">View Cart</a></li>
+          <li><a href="" class="footer__link">My Wishlist</a></li>
+          <li><a href="" class="footer__link">Track My Order</a></li>
+          <li><a href="" class="footer__link">Order</a></li>
+          <li><a href="" class="footer__link">Help</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Secured Payment Gateways</h3>
+        <img src="assets/img/payment-method.png" alt="payment" class="payment__img">
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="copyright">&copy; 2023 Evara. All Rights Reserved.</p>
+      <span class="designer">Designed by Bhojraj Narware</span>
+    </div>
+  </footer>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
