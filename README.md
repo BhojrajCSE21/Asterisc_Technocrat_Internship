@@ -50,7 +50,7 @@ topics to be covered and the duration of each session.
 registration and provides any additional information or resources.
 
 Below is the video of a Performed task to get a better understanding.
-![Task-2](Task-2.mp4)
+![Output](Task-2.mp4)
 
 
 
