@@ -22,7 +22,7 @@ A personal portfolio is a collection or document that showcases your past works,
 5. Contact: Created a contact page that allows visitors to get in touch with me.
 
 Below is the video of a Performed task to get a better understanding.
-https://github.com/BhojrajCSE21/Asterisc_Technocrat_Internship/blob/main/Task%201%20Asentric%20Technologies.mp4
+
 
 
 
@@ -50,6 +50,7 @@ topics to be covered and the duration of each session.
 registration and provides any additional information or resources.
 
 Below is the video of a Performed task to get a better understanding.
+![Task-2](Task-2.mp4)
 
 
 
